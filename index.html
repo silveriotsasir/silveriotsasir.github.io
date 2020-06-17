@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body id="body">
+
+<a href="alvaro/index.html"> alvaro </a>
+
+</body>
+</html>
+<script>
+	let pupils = new Array("abian","adrian_armas","adrian_gil","alvaro", "diego", "gabriel", "giovanni", "juan_carlos", "nino", "pablo", "sebastian");
+	let links = "";
+	for (var i = 0; i < pupils.length; i++) {
+		links += '<a href="' + pupils[i] + '/index.html">' + pupils[i] + '</a><br>';
+	}
+
+	document.getElementById('body').innerHTML = links;
+</script>

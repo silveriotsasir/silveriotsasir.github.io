@@ -1,0 +1,48 @@
+body {
+    background-image: url(../img/covid-19.jpg);
+}
+
+div.question_wrap {
+    margin-top: 10%;
+    width: 1000px;
+    height: 250px;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    border-radius: 15px;
+
+}
+
+h3#question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+button {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.2s all linear;
+}
+
+button.yes {
+    border: 5px solid greenyellow;
+    margin-right: 5px;
+}
+
+button.yes:hover {
+    background-color: greenyellow;
+}
+
+button.no {
+    border: 5px solid crimson;
+    margin-left: 5px;
+
+}
+
+button.no:hover {
+    background-color: crimson;
+}
